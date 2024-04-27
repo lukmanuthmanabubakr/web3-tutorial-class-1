@@ -6,8 +6,24 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_hey",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_no",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
-				"name": "abu",
+				"name": "hey",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -20,7 +36,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "abuBro",
+				"name": "no",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -60,11 +76,11 @@
 	},
 	"sources": {
 		"tests/hello.sol": {
-			"keccak256": "0xc0df1e0ff45fdce99fcf5afeb96134aaa417749c0dd1308cdcf716214f33c9a0",
+			"keccak256": "0xc1d365d441ef98190ec0717a42a46054205f1c6de4f0c22cb1b249222419b1b1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://485fca43b8a37b356ef0e25a72dd6dbeafebe9637b92bc6bafe1c663057a2a91",
-				"dweb:/ipfs/QmVKBHnQKnxHbhWkSWe5ZupGdNCXamYkR2XmaLyLNrFANj"
+				"bzz-raw://18e79d83d8b38e8d04a0d8432dc9d6e328961a4444605cca651a9aabff862ed5",
+				"dweb:/ipfs/QmR8M4ZyjHYPMQjL8m8P2SYiyezS1ASuynREw1DByGFSL9"
 			]
 		}
 	},
