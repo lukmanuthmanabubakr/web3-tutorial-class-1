@@ -3,7 +3,13 @@
 pragma solidity ^0.8.25;
 
 contract NFTCount {
-    uint public numberOfNFT;
+    uint256 public numberOfNFT;
+
+
+    //This will allow us see the total number of Nft we have created
+    function checkTotalNFT () public view returns (uint256) {
+        return numberOfNFT;
+    }
 
     //This function will icrement the NFT Number
 
