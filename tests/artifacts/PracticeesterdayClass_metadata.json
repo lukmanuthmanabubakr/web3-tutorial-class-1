@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.25+commit.b61c2a91"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "IncreaseNFT",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "NFTCounter",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"tests/Practice.sol": "PracticeesterdayClass"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"tests/Practice.sol": {
+			"keccak256": "0x4661ff07f5dcdc9dfe71bd8bb753869cf7f6f64067c6651a8181948e76d6c7e6",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4a69f313a244f7a24a56bb43c6da1aa05de6fd975972f43e62aa268d1eca5e25",
+				"dweb:/ipfs/QmZtNtkh7vk4fZcNQfu6DX9Rw8ZHjVJ1Jw9NYWp3Es21Jh"
+			]
+		}
+	},
+	"version": 1
+}
