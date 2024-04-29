@@ -24,6 +24,26 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "ToAllUsSeeTheTotalNFT",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -54,11 +74,11 @@
 	},
 	"sources": {
 		"tests/Practice.sol": {
-			"keccak256": "0x4661ff07f5dcdc9dfe71bd8bb753869cf7f6f64067c6651a8181948e76d6c7e6",
+			"keccak256": "0x1f983c9e1b0ea74f667f9cc519878846b009087c53f53e4a1b51ddfce4f12836",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4a69f313a244f7a24a56bb43c6da1aa05de6fd975972f43e62aa268d1eca5e25",
-				"dweb:/ipfs/QmZtNtkh7vk4fZcNQfu6DX9Rw8ZHjVJ1Jw9NYWp3Es21Jh"
+				"bzz-raw://7f37ab8e9ad2418404adac9809eae8b3d0257ed085878abd0a85f88e2932873a",
+				"dweb:/ipfs/QmPRzmVfvkfRDXJrcRPf9y7ypqz9sHKvnt7z4FpXLqoCCY"
 			]
 		}
 	},

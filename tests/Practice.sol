@@ -13,5 +13,11 @@ contract PracticeesterdayClass {
 
     //To decrement NFT
 
-    function decrement
+    function decrement () public {
+        NFTCounter -= 1;
+    }
+
+    function ToAllUsSeeTheTotalNFT () public view returns (uint256) {
+        return NFTCounter;
+    }
 }
