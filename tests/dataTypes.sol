@@ -18,5 +18,7 @@ contract DataTypes {
     uint public u256 = 456;
     uint public u = 123; //uint is a alias from uint256
 
+    //NEGATIVE NUMBERS
+
 
 }
