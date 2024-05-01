@@ -30,6 +30,45 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "u",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "u256",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "u8",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -60,11 +99,11 @@
 	},
 	"sources": {
 		"tests/dataTypes.sol": {
-			"keccak256": "0xbbd3bb134df572a3378060e63d5944da67193dba3d0d4fd5569a83f4a2dfb250",
+			"keccak256": "0xf0b9fadefc1e93daa06a10ebbd78f71f1af50234faaf1b63a65366f409eecc9b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eceb1e118df958a5564afbd3827100e71aab1b930a8452f2988cb8466024c99e",
-				"dweb:/ipfs/QmPWGbraQoLP7tMmtMKNarSgm2UhbKKeaGCZwbHTCTQLiB"
+				"bzz-raw://968dd9c3d16dcb9eedfcc3f7c5134bda25e2c3d936bdcfb9f4ac9706461fa7e1",
+				"dweb:/ipfs/Qma5DDSvgGLp4fDygkeouUiDMC12YBV8wSG8iaGEVkD1ri"
 			]
 		}
 	},
