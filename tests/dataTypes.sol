@@ -20,5 +20,16 @@ contract DataTypes {
 
     //NEGATIVE NUMBERS
 
+    //Negative number are allowed for int type, different ranges are also involved
+
+    // int256 ranges from -2 ** 255 to 2 ** 255 -1 = 5.7896045e+76, -5.7896045e+76
+    // int128 ranges from -2 ** 127 to 2 ** 127 -1 = 1.7014118e+38, -1.7014118e+38
+
+
+    int8 public i8 = -1;
+    int public i256 = 456;
+    int public i = -1234
+
+
 
 }
