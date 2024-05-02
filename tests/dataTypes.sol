@@ -31,5 +31,9 @@ contract DataTypes {
     int public i = -1234;
 
 
+    //Now you can add min and max int
+
+    int public minInt = type(int).min
+
 
 }
