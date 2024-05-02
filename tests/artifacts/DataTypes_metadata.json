@@ -7,12 +7,51 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "addr",
+				"name": "a",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "bytes1",
 						"name": "",
-						"type": "address"
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "b",
+				"outputs": [
+					{
+						"internalType": "bytes1",
+						"name": "",
+						"type": "bytes1"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "defaultBool",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "defaultInt",
+				"outputs": [
+					{
+						"internalType": "int256",
+						"name": "",
+						"type": "int256"
 					}
 				],
 				"stateMutability": "view",
@@ -26,6 +65,19 @@
 						"internalType": "address",
 						"name": "",
 						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "number",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -60,11 +112,11 @@
 	},
 	"sources": {
 		"tests/dataTypes.sol": {
-			"keccak256": "0x7d621060aea0a2cf6135a80b8d4de40b58a2a933667492cbce37906680101bba",
+			"keccak256": "0x497811d29cdbc32384c62432ee7a540154468ea528ed997e3de8d851cff06f9d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://58c337f941436f440326c0b874b397fa8b92b0176ffb9d8700b5d520786b5a16",
-				"dweb:/ipfs/QmSTxj9PhPkNKz1cwHnkebBnWvhmcfTz8tTZmJ8eEqRVEv"
+				"bzz-raw://d1d88331f0bfaa47e58b78feca021fed2f2276ea23498877f86b2ecc53dbc3ad",
+				"dweb:/ipfs/QmYhE4sLR8VZntxyWCaSwZjjHrHyhPX7ZFYQ9dUeFFZcBa"
 			]
 		}
 	},
