@@ -20,7 +20,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "i",
+				"name": "maxInt",
 				"outputs": [
 					{
 						"internalType": "int256",
@@ -33,25 +33,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "i256",
+				"name": "minInt",
 				"outputs": [
 					{
 						"internalType": "int256",
 						"name": "",
 						"type": "int256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "i8",
-				"outputs": [
-					{
-						"internalType": "int8",
-						"name": "",
-						"type": "int8"
 					}
 				],
 				"stateMutability": "view",
@@ -99,11 +86,11 @@
 	},
 	"sources": {
 		"tests/dataTypes.sol": {
-			"keccak256": "0xad62ce3d40dc75e005f2404a3732442a2ef278ab5a723e402d846b13a312f7a4",
+			"keccak256": "0xb279844102d5ae9bd3ce6949e2ef59b649d26c6eef53ae601439ed3991f47d71",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3f0b9650beab1bf5d61ad8ce1e5bc93fa8501916b2efea60f83d9aba27f9e4bc",
-				"dweb:/ipfs/QmR3wtVQ6hTUQq1q99fZwThptjEmsgmRQQZS8Tg6xJ4fgt"
+				"bzz-raw://c73b1faabb3e0cedd90e629dd79df4ff6e7ca67f8864c424428c977e8aea848b",
+				"dweb:/ipfs/QmUbmDdPBKojktae6feratjjxQ3ydiF5FERTCBGUq9r2CB"
 			]
 		}
 	},

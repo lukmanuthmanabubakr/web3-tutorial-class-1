@@ -26,14 +26,15 @@ contract DataTypes {
     // int128 ranges from -2 ** 127 to 2 ** 127 -1 = 1.7014118e+38, -1.7014118e+38
 
 
-    int8 public i8 = -1;
-    int public i256 = 456;
-    int public i = -1234;
+    // int8 public i8 = -1;
+    // int public i256 = 456;
+    // int public i = -1234;
 
 
     //Now you can add min and max int
 
-    int public minInt = type(int).min
+    int public minInt = type(int).min;
+    int public maxInt = type(int).max;
 
 
 }
