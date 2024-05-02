@@ -28,7 +28,7 @@ contract DataTypes {
 
     int8 public i8 = -1;
     int public i256 = 456;
-    int public i = -1234
+    int public i = -1234;
 
 
 
