@@ -14,9 +14,9 @@ contract DataTypes {
 
     // uint256 //ranges 0 - 2 ** 256 - 1 // 1.1579209e+77
 
-    uint8 public u8 = 1;
-    uint public u256 = 456;
-    uint public u = 123; //uint is a alias from uint256
+    // uint8 public u8 = 1;
+    // uint public u256 = 456;
+    // uint public u = 123; //uint is a alias from uint256
 
     //NEGATIVE NUMBERS
 
