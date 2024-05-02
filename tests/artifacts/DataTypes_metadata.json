@@ -7,12 +7,12 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "a",
+				"name": "addr",
 				"outputs": [
 					{
-						"internalType": "bytes1",
+						"internalType": "address",
 						"name": "",
-						"type": "bytes1"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -20,12 +20,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "b",
+				"name": "hey",
 				"outputs": [
 					{
-						"internalType": "bytes1",
+						"internalType": "address",
 						"name": "",
-						"type": "bytes1"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"tests/dataTypes.sol": {
-			"keccak256": "0xf7b53493539175f7bb4f375c64b54edf40bfeaf795244736de0dbb05dded7f11",
+			"keccak256": "0x7d621060aea0a2cf6135a80b8d4de40b58a2a933667492cbce37906680101bba",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://1a3e56c828a9f3d487f9416816891f89c3522464b9003d9132e020349ad65a2b",
-				"dweb:/ipfs/QmaBarekm5PEN5uvxC3sKxLKLXbX7E4H3h827zcdcdNXTk"
+				"bzz-raw://58c337f941436f440326c0b874b397fa8b92b0176ffb9d8700b5d520786b5a16",
+				"dweb:/ipfs/QmSTxj9PhPkNKz1cwHnkebBnWvhmcfTz8tTZmJ8eEqRVEv"
 			]
 		}
 	},
