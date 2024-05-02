@@ -3,8 +3,8 @@
 pragma solidity ^0.8.25;
 
 contract DataTypes {
-    bool public hey;
-    bool public no = true;
+    // bool public hey;
+    // bool public no = true;
 
     //UINT stands for unsigned integer, meaning non negative integers differen size are available
 
@@ -33,8 +33,14 @@ contract DataTypes {
 
     //Now you can add min and max int
 
-    int public minInt = type(int).min;
-    int public maxInt = type(int).max;
+    // int public minInt = type(int).min;
+    // int public maxInt = type(int).max;
+
+
+    //ARRAY
+
+    bytes1 public  a;
+    bytes1 public b;
 
 
 }
