@@ -2,7 +2,7 @@ import Web3 from 'web3'
 import { Contract, ContractSendMethod, Options } from 'web3-eth-contract'
 
 /**
- * Deploy the given contract
+ 
  * @param {string} contractName name of the contract to deploy
  * @param {Array<any>} args list of constructor' parameters
  * @param {string} from account used to send the transaction
