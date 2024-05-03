@@ -19,16 +19,16 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "hey",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "uint256",
-						"name": "",
+						"name": "_hey",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"name": "updateData",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -60,11 +60,11 @@
 	},
 	"sources": {
 		"tests/function.sol": {
-			"keccak256": "0xaff8945c753d619a95842ba6fa66ca97245fed4b84ffba99f5a367214c7a20dc",
+			"keccak256": "0x2f16a1337ae34b8f4429e053c2d8db95df3a9f69832ca6044a9717769e6641eb",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://135b9b8ae0dabde61466b1eb5d71567d2714946e0e25455a011967abf6b9f96f",
-				"dweb:/ipfs/QmXrNXcpxcpBy1PiUHwThcksSQP7bB1TeFBVfEiMBifvhz"
+				"bzz-raw://96f5df7e924e3fdaaa5cbb9937036e3e0a9a8367f001f005d0e3de445522d7fc",
+				"dweb:/ipfs/QmdKTTTjAkqcSYYEsgc49j8drMQw2noyamuTwu1VMxJMs2"
 			]
 		}
 	},
