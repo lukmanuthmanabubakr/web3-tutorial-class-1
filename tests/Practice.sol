@@ -5,7 +5,7 @@ pragma solidity ^0.8.25;
 contract PracticeesterdayClass {
     uint256 public NFTCounter;
 
-    //to make increment
+    //to make an increment
 
     function IncreaseNFT () public  {
         NFTCounter += 1;
