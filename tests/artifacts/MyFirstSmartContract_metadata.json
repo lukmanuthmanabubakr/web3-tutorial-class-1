@@ -6,6 +6,22 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_hey",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_no",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
 				"name": "hey",
 				"outputs": [
@@ -60,11 +76,11 @@
 	},
 	"sources": {
 		"tests/hello.sol": {
-			"keccak256": "0xa7af3d8fe7329fcf2f9c65dccdaf73601a89abdd70c2a42c2945f875360058fc",
+			"keccak256": "0xd72dbd8cc1a37d37cca64d79edc8ba3731e13d95c9cb5a8654eb8a5c7ad1cac1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://cfb3cd514f3e17dcbfb5217bcefa3bdf8520370cdf6a63d25a3ff46ca9f9f09f",
-				"dweb:/ipfs/QmSEGgocZZLLc6Xsua2b4mnXPmdyNfbpq2d3a6fMTZHePa"
+				"bzz-raw://a74a422f52ea7c833ebb9e9d687687098f78ea0815b2394d9521336c6da38cba",
+				"dweb:/ipfs/QmP3FDzZ9cfEsdETb88v2UvFRAMitkcdipqKt7LEH8zcTu"
 			]
 		}
 	},

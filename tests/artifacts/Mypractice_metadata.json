@@ -6,13 +6,29 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [],
-				"name": "mindset",
-				"outputs": [
+				"inputs": [
 					{
 						"internalType": "string",
-						"name": "",
+						"name": "_school",
 						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_level",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "level",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -20,12 +36,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "myWorth",
+				"name": "school",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "string",
 						"name": "",
-						"type": "uint256"
+						"type": "string"
 					}
 				],
 				"stateMutability": "view",
@@ -60,11 +76,11 @@
 	},
 	"sources": {
 		"tests/practice.sol": {
-			"keccak256": "0xd6aee9274e28c7a9effcfdc528b027f1147b032be25be72ff50b6ca8027cf2e4",
+			"keccak256": "0x868a3cd34df5f9394ed4bf8649c63f06c669b72fd14f3c83eea65c981899aa31",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a38c1b454b542f445cb389a3fb66105bf8e05e9d444ee791db28974b5004d0dc",
-				"dweb:/ipfs/Qmau5cpcofM8Yi8QpjHAVqro7dcFSdu3b1Z3PQYY1Duevi"
+				"bzz-raw://eaf0ad87451cbe4b740a917aeb15b239d4c9fd0bb500da50c1fbefb3fa5e4048",
+				"dweb:/ipfs/QmWCNFxiKLomfP1W1yBnk4fQWAfzWBkTgYVPm9oUG54ot5"
 			]
 		}
 	},
