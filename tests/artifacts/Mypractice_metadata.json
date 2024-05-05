@@ -7,14 +7,20 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "IncreaseNFT",
-				"outputs": [],
-				"stateMutability": "nonpayable",
+				"name": "mindset",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "NFTCounter",
+				"name": "myWorth",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -23,26 +29,6 @@
 					}
 				],
 				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "ToAllUsSeeTheTotalNFT",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "decrement",
-				"outputs": [],
-				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -59,7 +45,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"tests/smallpro.sol": "PracticeesterdayClass"
+			"tests/practice.sol": "Mypractice"
 		},
 		"evmVersion": "cancun",
 		"libraries": {},
@@ -73,12 +59,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"tests/smallpro.sol": {
-			"keccak256": "0x437020bc8e80bc1e470e66ed09e6cbfef4cfde7142610e230a9eb8856363abc5",
+		"tests/practice.sol": {
+			"keccak256": "0xd6aee9274e28c7a9effcfdc528b027f1147b032be25be72ff50b6ca8027cf2e4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://fd6acca0ba6eb085f3ea809d115d218b1c3dce799ade7f5047a5eba2c4ade41d",
-				"dweb:/ipfs/QmRdtCPpdpsdZZgP49infKFX89gLX8AfUyaoiXRhrXpPUT"
+				"bzz-raw://a38c1b454b542f445cb389a3fb66105bf8e05e9d444ee791db28974b5004d0dc",
+				"dweb:/ipfs/Qmau5cpcofM8Yi8QpjHAVqro7dcFSdu3b1Z3PQYY1Duevi"
 			]
 		}
 	},
