@@ -6,24 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_school",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_level",
-						"type": "uint256"
-					}
-				],
-				"name": "akure",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "level",
 				"outputs": [
@@ -38,12 +20,39 @@
 			},
 			{
 				"inputs": [],
+				"name": "levelDecrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "levelIncrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "school",
 				"outputs": [
 					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "toSeeAllLevels",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -78,11 +87,11 @@
 	},
 	"sources": {
 		"tests/practice.sol": {
-			"keccak256": "0x81756de617ffc3120adcfc41a762ac37e9890ab8a24f38c49e98633dff633dfd",
+			"keccak256": "0x727532d188e78631ece4a19f8dbcf5e76046d552b83617624841be8562fde631",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d680816b220c237b0047fcf350e5ea374151ef5e7edf39bdec45f71bf5b1ec9c",
-				"dweb:/ipfs/QmVGmuB2cdxSL7qzGJeUKJXxHGfeTrads2RC9uREG9K2FM"
+				"bzz-raw://c1427bfb998a094c2840817c755be464ffca891130fa607fff0c37c8ed7475f5",
+				"dweb:/ipfs/QmYsAYTMSJstdZjnbxsTJjEH2RU3TxGpx1UFDJyZLHvPW8"
 			]
 		}
 	},
