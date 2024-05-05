@@ -56,6 +56,7 @@ contract DataTypes {
     uint public number; //0
     int public defaultInt; //0
     address public hey; //000000000000000000000000
+    string public abu;
 
 
 

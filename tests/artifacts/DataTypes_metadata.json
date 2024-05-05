@@ -20,6 +20,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "abu",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "b",
 				"outputs": [
 					{
@@ -112,11 +125,11 @@
 	},
 	"sources": {
 		"tests/dataTypes.sol": {
-			"keccak256": "0x497811d29cdbc32384c62432ee7a540154468ea528ed997e3de8d851cff06f9d",
+			"keccak256": "0xba41b27410c2427e7aacdbf1bd9e0ae9536127f5c9b7497222ec02d5dbd4e725",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d1d88331f0bfaa47e58b78feca021fed2f2276ea23498877f86b2ecc53dbc3ad",
-				"dweb:/ipfs/QmYhE4sLR8VZntxyWCaSwZjjHrHyhPX7ZFYQ9dUeFFZcBa"
+				"bzz-raw://a8c03a5673b886ac78932fa8d9d843663341b23085ba2114ac9766ff1e4e9640",
+				"dweb:/ipfs/QmVhQbR7pXgzJ7kMh7A9eMep6F5xySUD5J4Ygb9kLQMnni"
 			]
 		}
 	},
