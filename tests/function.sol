@@ -5,7 +5,7 @@ contract LearnFunction {
     // uint256 public  hey;
     uint256 hey;
 
-    //get data with the help of function
+    //get data with the help of functions
     function getInfo() public view returns(uint256) {
         return hey;
     }
