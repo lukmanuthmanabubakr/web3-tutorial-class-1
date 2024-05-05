@@ -30,24 +30,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "string",
-						"name": "_hey",
-						"type": "string"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_no",
-						"type": "uint256"
-					}
-				],
-				"name": "updateInfo",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -78,11 +60,11 @@
 	},
 	"sources": {
 		"tests/hello.sol": {
-			"keccak256": "0x1cb717e02aa78591f499302a34e5001c21797859c6c73b20d414d970cc56c5f2",
+			"keccak256": "0xa7af3d8fe7329fcf2f9c65dccdaf73601a89abdd70c2a42c2945f875360058fc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://8b8695b9dfea1686cd0eccfb3042e259e11206d2dcb99485a235996cd3268fc5",
-				"dweb:/ipfs/QmYuF2PtcNkEwrfHYwaRpeUVPfFWPf723HiTuGGkFuQQoP"
+				"bzz-raw://cfb3cd514f3e17dcbfb5217bcefa3bdf8520370cdf6a63d25a3ff46ca9f9f09f",
+				"dweb:/ipfs/QmSEGgocZZLLc6Xsua2b4mnXPmdyNfbpq2d3a6fMTZHePa"
 			]
 		}
 	},
