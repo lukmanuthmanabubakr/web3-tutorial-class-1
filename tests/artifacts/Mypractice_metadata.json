@@ -18,8 +18,10 @@
 						"type": "uint256"
 					}
 				],
+				"name": "akure",
+				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"type": "function"
 			},
 			{
 				"inputs": [],
@@ -76,11 +78,11 @@
 	},
 	"sources": {
 		"tests/practice.sol": {
-			"keccak256": "0x868a3cd34df5f9394ed4bf8649c63f06c669b72fd14f3c83eea65c981899aa31",
+			"keccak256": "0x81756de617ffc3120adcfc41a762ac37e9890ab8a24f38c49e98633dff633dfd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://eaf0ad87451cbe4b740a917aeb15b239d4c9fd0bb500da50c1fbefb3fa5e4048",
-				"dweb:/ipfs/QmWCNFxiKLomfP1W1yBnk4fQWAfzWBkTgYVPm9oUG54ot5"
+				"bzz-raw://d680816b220c237b0047fcf350e5ea374151ef5e7edf39bdec45f71bf5b1ec9c",
+				"dweb:/ipfs/QmVGmuB2cdxSL7qzGJeUKJXxHGfeTrads2RC9uREG9K2FM"
 			]
 		}
 	},

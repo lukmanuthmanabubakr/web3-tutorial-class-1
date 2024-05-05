@@ -8,7 +8,12 @@ contract Mypractice {
     string public school;
     uint256 public level;
 
-    constructor (string memory _school, uint _level) {
+    // constructor (string memory _school, uint _level) {
+    //     school = _school;
+    //     level = _level;
+    // }
+
+    function akure (string memory _school, uint _level) public  {
         school = _school;
         level = _level;
     }
