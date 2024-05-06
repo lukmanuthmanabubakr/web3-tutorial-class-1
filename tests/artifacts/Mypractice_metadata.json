@@ -87,11 +87,11 @@
 	},
 	"sources": {
 		"tests/practice.sol": {
-			"keccak256": "0x727532d188e78631ece4a19f8dbcf5e76046d552b83617624841be8562fde631",
+			"keccak256": "0x7b15be96ce65ad5a9ed5d0ec58050d4de3a49e163290d89efbd9a079364e090d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c1427bfb998a094c2840817c755be464ffca891130fa607fff0c37c8ed7475f5",
-				"dweb:/ipfs/QmYsAYTMSJstdZjnbxsTJjEH2RU3TxGpx1UFDJyZLHvPW8"
+				"bzz-raw://5b1d13a3395d553f6b804bad20bb89a67fafc9ccd73f885894f567748022261b",
+				"dweb:/ipfs/QmX1rQ7LdDBYTBLsgYqdTUEoLKGB82CmnFfucy68p5GJ5H"
 			]
 		}
 	},

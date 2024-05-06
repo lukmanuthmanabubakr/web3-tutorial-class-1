@@ -19,9 +19,13 @@ contract Mypractice {
     // }
 
 
+//Incrment
+
     function levelIncrement () public  {
         level += 1;
     }
+
+    //Deceremnt
 
     function levelDecrement () public  {
         level -= 1;
