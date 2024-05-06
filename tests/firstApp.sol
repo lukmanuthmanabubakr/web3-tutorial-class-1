@@ -6,7 +6,7 @@ contract NFTCount {
     uint256 public numberOfNFT;
 
 
-    //This will allow us see the total number of Nft we have created
+    //This will allow us see the total amount number of Nft we have created
     function checkTotalNFT () public view returns (uint256) {
         return numberOfNFT;
     }
