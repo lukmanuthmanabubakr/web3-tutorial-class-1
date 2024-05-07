@@ -20,4 +20,10 @@ contract LearnFunction {
         uint256 newNumber = _a + _b;
         return newNumber;
     }
+
+
+    function add (uint256 _a, uint256 _b) public  view returns (uint) {
+        uint256 addNumber = _a + _b;
+        return  addNumber;
+    }
 }
