@@ -17,19 +17,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_hey",
-						"type": "uint256"
-					}
-				],
-				"name": "updateData",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -60,11 +47,11 @@
 	},
 	"sources": {
 		"tests/function.sol": {
-			"keccak256": "0x64bfe694aea5531e4ca528fde5e928ce4c174c22057430ae4b519aa3e08861d1",
+			"keccak256": "0x28e22a873692dfa146d1147808caf046a300d4671913498ae677362daf93f840",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3805e88cccb338a4aa3d501cd7ba530daed1f690928d4620e3dd33e861524198",
-				"dweb:/ipfs/QmRoqKCPAEB9LkX1YAeEwKxwk8HAFnyDguydtT5ZPxvZgZ"
+				"bzz-raw://572e0341055a105ef4748389477540bd1357eb8c29132e30c7cf312a721af994",
+				"dweb:/ipfs/QmQn5vUiBN27ZvPsP5wrML3aL7YWqXyXty1jgKTu8VypHV"
 			]
 		}
 	},
