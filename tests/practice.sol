@@ -13,26 +13,26 @@ contract Mypractice {
     //     level = _level;
     // }
 
-    // function akure (string memory _school, uint _level) public  {
-    //     school = _school;
-    //     level = _level;
-    // }
+    function akure (string memory _school, uint _level) public  {
+        school = _school;
+        level = _level;
+    }
 
 
 //Incrment
 
-    function levelIncrement () public  {
-        level += 1;
-    }
+    // function levelIncrement () public  {
+    //     level += 1;
+    // }
 
-    //Deceremnt
+    // //Deceremnt
 
-    function levelDecrement () public  {
-        level -= 1;
-    }
+    // function levelDecrement () public  {
+    //     level -= 1;
+    // }
 
-    function toSeeAllLevels () public view returns (uint256) {
-        return level;
-    }
+    // function toSeeAllLevels () public view returns (uint256) {
+    //     return level;
+    // }
 
 }
