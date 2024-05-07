@@ -6,30 +6,6 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_a",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_b",
-						"type": "uint256"
-					}
-				],
-				"name": "get",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [],
 				"name": "getInfo",
 				"outputs": [
@@ -84,11 +60,11 @@
 	},
 	"sources": {
 		"tests/function.sol": {
-			"keccak256": "0xa985aa4187c7fe0a0be2ad1aa8d1938322561cda06c75b171d80212336ac0d93",
+			"keccak256": "0x64bfe694aea5531e4ca528fde5e928ce4c174c22057430ae4b519aa3e08861d1",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6664115673dbb49f5c4d85aa9fce7bf9ebd0f69ffdb50c8f2234e231a587cc02",
-				"dweb:/ipfs/QmT7o84HQEmW4Uc6Nbr8DhToMWGz8LDaKyri2y6WS7tKwc"
+				"bzz-raw://3805e88cccb338a4aa3d501cd7ba530daed1f690928d4620e3dd33e861524198",
+				"dweb:/ipfs/QmRoqKCPAEB9LkX1YAeEwKxwk8HAFnyDguydtT5ZPxvZgZ"
 			]
 		}
 	},
