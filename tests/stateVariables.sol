@@ -8,12 +8,15 @@ contract StateVariable {
     string public myState;
     uint256 public myNum;
 
-    string public defaultText = "Hey Default text";
-    uint256 public defaultNum = 5;
+    // string public defaultText = "Hey Default text";
+    // uint256 public defaultNum = 5;
 
-    //If i use bytes in my project it will allow me safe my gas fee
+    // //If i use bytes in my project it will allow me safe my gas fee
 
-    bytes public defaultBytes = "Hey Legend";
-    bytes public defaultBytesNo;
+    // bytes public defaultBytes = "Hey Legend";
+    // bytes public defaultBytesNo;
+
+    // uint256[]  myNumber;
+    // uint256[] public   myNumber;
 
 }
