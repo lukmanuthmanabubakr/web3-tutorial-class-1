@@ -6,6 +6,22 @@
 	"output": {
 		"abi": [
 			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_text",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_no",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
 				"inputs": [],
 				"name": "myNum",
 				"outputs": [
@@ -60,11 +76,11 @@
 	},
 	"sources": {
 		"tests/stateVariables.sol": {
-			"keccak256": "0x8611968d81c1e80ba7cc5827ac524ade5a2da73bbb330da8ee7d97b58a9d2ce2",
+			"keccak256": "0x702686dfe944c3e3371bb15424870449b0b4c72148ed2a71c5db02b1563790c9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4332e5ac303d026a378ea9f3918023348c7066c70494eb5662723d33e4cd423b",
-				"dweb:/ipfs/QmPTgERAMp95qaKRYqofGGQAkuxyHqKyFgpoG7P3zJkzAs"
+				"bzz-raw://20011ae0e0f7ff507fd7970d55c83cc1ea83fb843320afe2ac9a7cd9a0fc1649",
+				"dweb:/ipfs/QmPbeFr39yYXjkVRet59waEYziMMd9izn7GJMRru2EjpUE"
 			]
 		}
 	},
