@@ -4,7 +4,34 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "local",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "myNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +60,11 @@
 	},
 	"sources": {
 		"tests/localVariables.sol": {
-			"keccak256": "0x93cbb0900eb5d69ac54c047229118cbef0555c5e7878ddfd7f2ff9a0690b3c06",
+			"keccak256": "0xf1c1b7b25465e7d386299155b7651935af60be916fb4c1361e577c812004ff99",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5613cc247fcaa2a8512f9caac37e445f50fb3cf6ff051f8bee18466cf95953cb",
-				"dweb:/ipfs/QmTh3qQPwbFhNt5FQF31LukVqx1HfEsn6fshUntZB7UHdU"
+				"bzz-raw://077ca9ddb2ebcd56dbbbd84876820081dffc60433231daa85826d341e39b43b8",
+				"dweb:/ipfs/QmYoeYs2nXsVeHcWRo63PZjtGNw47ku6nx9foFdoXHeRhr"
 			]
 		}
 	},
