@@ -11,4 +11,8 @@ contract StateVariable {
     string public defaultText = "Hey Default text";
     uint256 public defaultNum = 5;
 
+    //If i use bytes in my project it will allow me safe my gas fee
+
+    bytes public defaultBytes = "Hey Legend";
+
 }

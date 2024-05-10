@@ -7,6 +7,19 @@
 		"abi": [
 			{
 				"inputs": [],
+				"name": "defaultBytes",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "defaultNum",
 				"outputs": [
 					{
@@ -86,11 +99,11 @@
 	},
 	"sources": {
 		"tests/stateVariables.sol": {
-			"keccak256": "0x49a35b10b7a2b95301dfdb007bc0a35457617bc4f878e65c2a3cf2f95b8dfda5",
+			"keccak256": "0x2d6ec33e2308ee8a2641f7b3af30f8cb917b75f894da429a13d7686df49c5ba0",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://c92c5720d256b14db67ed89aeaa68f8ef7d6e9af885029a8311856aca9125be2",
-				"dweb:/ipfs/Qmb5SoEnQKDqmo6P9tCjzFtfxvHoookxVSp1mm84PaAKro"
+				"bzz-raw://72bf011cbb5fbc71a765b09eda3410de030e1f4a0c35fc3bb1b5d769ab622f21",
+				"dweb:/ipfs/QmQtMf3Un4UPsSwvu3jTDS5L5QXqJyW27gv4PY5iYsEAom"
 			]
 		}
 	},
