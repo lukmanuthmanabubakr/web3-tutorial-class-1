@@ -4,7 +4,6 @@ pragma solidity ^0.8.25;
 contract StateVariable {
     //I HAVE TO KEEP FEW THINGS IN MIND ABOUT STATE VARIABLES
 
-
     // string public myState;
     // uint256 public myNum;
 
@@ -19,19 +18,16 @@ contract StateVariable {
     // uint256[]  myNumber;
     // uint256[] public   myNumber;
 
-     string public myState;
+    string public myState;
     uint256 public myNum;
 
     // constructor(string memory _text, uint _no) {
-        //   myState = _text;
-        //     myNum = _no;
+    //   myState = _text;
+    //     myNum = _no;
     // }
 
-    function update(string memory _text, uint _no) public  {
-       
-             myState = _text;
-            myNum = _no;
-
+    function update(string memory _text, uint256 _no) public {
+        myState = _text;
+        myNum = _no;
     }
-
 }

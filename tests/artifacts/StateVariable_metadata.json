@@ -78,11 +78,11 @@
 	},
 	"sources": {
 		"tests/stateVariables.sol": {
-			"keccak256": "0x5d8299555c57fd16a6e2d43461e54f2f490140a07a22e24a4c5985451ed091ee",
+			"keccak256": "0x792c011b98623e8ecf2ec3e26dedd9d2a5897da2e5138827d2e48b3a427dcb10",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ec92a99fa054f5377d3e4dbf34182959bd95ac86f34ca1e2a49415f50fd6a38f",
-				"dweb:/ipfs/QmXEqPqoFso3oMFvR8eP7hYapZ6qx9h6YvW1sEaEQkrXku"
+				"bzz-raw://1376b741e5afdf709465eaa9b010c2274732539e9475ca8f7560ef072906a61b",
+				"dweb:/ipfs/Qmf7xpssXQbKkwZTGrigKx7xNpPSdLD6rjeGvyE8CP4y9V"
 			]
 		}
 	},
