@@ -10,6 +10,16 @@
 				"name": "local",
 				"outputs": [
 					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					},
+					{
 						"internalType": "uint256",
 						"name": "",
 						"type": "uint256"
@@ -60,11 +70,11 @@
 	},
 	"sources": {
 		"tests/localVariables.sol": {
-			"keccak256": "0xf1c1b7b25465e7d386299155b7651935af60be916fb4c1361e577c812004ff99",
+			"keccak256": "0x0a0d9663a245112c091bf1ea89a597b4fe9c48decb94a9f774915f0fe89fe300",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://077ca9ddb2ebcd56dbbbd84876820081dffc60433231daa85826d341e39b43b8",
-				"dweb:/ipfs/QmYoeYs2nXsVeHcWRo63PZjtGNw47ku6nx9foFdoXHeRhr"
+				"bzz-raw://f54c584aff40a11ab03d0f15c544a280cd8c85573bb399bfe1d9d027ed514d3a",
+				"dweb:/ipfs/QmUegZwceEqondQ8VevkQ7ztjQdec3XvFB5B82rCpnGhG7"
 			]
 		}
 	},
