@@ -20,6 +20,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "defaultBytesNo",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "defaultNum",
 				"outputs": [
 					{
@@ -99,11 +112,11 @@
 	},
 	"sources": {
 		"tests/stateVariables.sol": {
-			"keccak256": "0x2d6ec33e2308ee8a2641f7b3af30f8cb917b75f894da429a13d7686df49c5ba0",
+			"keccak256": "0x02b99a3348f423aeacb1d29ac0caa891d17ad0f3ae47b625390f33573a31416f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://72bf011cbb5fbc71a765b09eda3410de030e1f4a0c35fc3bb1b5d769ab622f21",
-				"dweb:/ipfs/QmQtMf3Un4UPsSwvu3jTDS5L5QXqJyW27gv4PY5iYsEAom"
+				"bzz-raw://2802bfec37c3da19f29f241cba80b48556dcb79ef6e65b278d1a3039762f582c",
+				"dweb:/ipfs/QmQkAEoP3WPm8VY24m2Yp8ks5AmwEKshtQQKfXF88GqMZG"
 			]
 		}
 	},
