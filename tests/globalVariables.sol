@@ -1,12 +1,11 @@
-// SPDX-License-Identifier: MIT
+ // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.25;
 
 //Global varialbes
 
 contract GlobalVariables {
-    
     address public owner;
-    uint256 public Myblockhash;
+    address public Myblockhash;
     uint256 public difficulty;
     uint256 public gasLimit;
     uint256 public number;
@@ -23,5 +22,17 @@ contract GlobalVariables {
 
         // 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
         // 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4
+
+        Myblockhash = block.coinbase;
+        difficulty = block.difficulty;
+        gasLimit = block.gaslimit;
+        number = block.number;
+        timestamp = block.timestamp;
+        gasprice = tx.gasprice;
+        origin = tx.origin;
+        callData = msg.data;
+        Firstfour = msg.sig;
+        // value = msg.value;
+        //nowOn = now;
     }
 }

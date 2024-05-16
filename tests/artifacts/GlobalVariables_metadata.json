@@ -28,9 +28,9 @@
 				"name": "Myblockhash",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "address",
 						"name": "",
-						"type": "uint256"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -195,11 +195,11 @@
 	},
 	"sources": {
 		"tests/globalVariables.sol": {
-			"keccak256": "0x9bfc75a028b83b9dc59be13493c1178494a4e5c21d825b9195f9ce6878603112",
+			"keccak256": "0x62fce44220bcff2b4ba8804e1a6b56d07a745ccbdf80b65ca28d46991c20f78f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4df56df2d29465c4d07aef88a4aa7f23d857e7291e4a0c31bb18e0a03c2ee71d",
-				"dweb:/ipfs/QmeUtrhLjrCAhgwUP4y7JL578FgCjkzHYcDKcatHeH3DkY"
+				"bzz-raw://ff7a891bdcef9d293b0bee2a9f9368fbedfe8542d62a49e21456293288252a95",
+				"dweb:/ipfs/QmcUwPUqdSawrCFg1DAXzhrNoi99kxzkFavgPgmDheTfpm"
 			]
 		}
 	},
