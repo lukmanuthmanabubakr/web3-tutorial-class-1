@@ -4,7 +4,26 @@
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getResults",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "product",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "total",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
 		"devdoc": {
 			"kind": "dev",
 			"methods": {},
@@ -33,11 +52,11 @@
 	},
 	"sources": {
 		"tests/view-in-sol.sol": {
-			"keccak256": "0x945f51c5d1912bce9bdd854a052c5c963898b09e2261feec81aa82d10029a7c8",
+			"keccak256": "0xe7e0d863dd24513df8e4c94681a32e7f9ffe4188d644a9f78cb8cca3bce9bec8",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://5c6de4ebd1948b61ccd6df640c61ea88b290e3c17c46a83b7b7e1a8acb3bf341",
-				"dweb:/ipfs/QmaP5rCNtNjQHiqfcxD8Ao62b8SMvNQvXMxMHEYpbE979u"
+				"bzz-raw://7ea4393c0a140a1d5552001052e741dcec41781fd85e969ae9a79e81da19f3f3",
+				"dweb:/ipfs/QmVZ5mTrcbJCDymPKiGYcHMcsjSupti3oMEY5EvQ6ESuTi"
 			]
 		}
 	},
