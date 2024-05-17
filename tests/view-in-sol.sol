@@ -12,10 +12,10 @@ contract View {
 
     //What if i want to calculate
     function getResults() public view returns (uint256 product, uint256 total) {
-        uint256 num1 = 20;
-        uint256 num2 = 30;
+        // uint256 num1 = 20;
+        // uint256 num2 = 30;
 
-        product = num1 * num2;
-        total = num1 + num2;
+        product = Num1 * Num2;
+        total = Num1 + Num2;
     }
 }
