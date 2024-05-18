@@ -11,16 +11,16 @@
 				"outputs": [
 					{
 						"internalType": "uint256",
-						"name": "product",
+						"name": "",
 						"type": "uint256"
 					},
 					{
 						"internalType": "uint256",
-						"name": "total",
+						"name": "",
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
+				"stateMutability": "view",
 				"type": "function"
 			}
 		],
@@ -52,11 +52,11 @@
 	},
 	"sources": {
 		"tests/view-in-sol.sol": {
-			"keccak256": "0xfe9be0f13e87b027747edb4c2d90f8e6727bde56c9730020b37239bf8211ed7d",
+			"keccak256": "0x675a7e903f9896af7d93ef3f2a89270fe8de21323b6ddd16c3b358df6fc166d2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f1f0b1bc30f7f2ba2766183271fb5057933bfbee648d781f74e0b2d3b00d33a5",
-				"dweb:/ipfs/QmVNspbe8yVzDLV4G1uwNWcxEFbwJURTyteibH4sND5m4j"
+				"bzz-raw://cb381a73d505edda1909c0ea07fa77ee144d494b47e9276c141df96a45a74c6b",
+				"dweb:/ipfs/QmVAW3vF6hczYcXGWyvkBMiStWndL9buigRbBRZR2N6Exg"
 			]
 		}
 	},
