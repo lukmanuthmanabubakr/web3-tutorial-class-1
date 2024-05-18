@@ -15,6 +15,9 @@ contract View {
         // uint256 num1 = 20;
         // uint256 num2 = 30;
 
+        Num1 += 5;
+        Num2 += 7;
+
         product = Num1 * Num2;
         total = Num1 + Num2;
     }
