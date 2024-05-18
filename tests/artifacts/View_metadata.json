@@ -20,7 +20,7 @@
 						"type": "uint256"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -52,11 +52,11 @@
 	},
 	"sources": {
 		"tests/view-in-sol.sol": {
-			"keccak256": "0x9378280410da7e001b41a9b739f56b4b48e63c5e6615a4e2a405a9722250b57e",
+			"keccak256": "0xfe9be0f13e87b027747edb4c2d90f8e6727bde56c9730020b37239bf8211ed7d",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://4e90e8c55ccf2a1da6b34b458d2b545da59c11ec1475982fa52808ad10f680e2",
-				"dweb:/ipfs/QmP2vbQwe6eNyxNkJJzpmb4wfzQnKhYoeG8hyZ9WYkTixC"
+				"bzz-raw://f1f0b1bc30f7f2ba2766183271fb5057933bfbee648d781f74e0b2d3b00d33a5",
+				"dweb:/ipfs/QmVNspbe8yVzDLV4G1uwNWcxEFbwJURTyteibH4sND5m4j"
 			]
 		}
 	},
