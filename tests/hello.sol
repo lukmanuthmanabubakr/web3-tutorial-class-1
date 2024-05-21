@@ -3,7 +3,7 @@
 pragma solidity ^0.8.25;
 
 contract MyFirstSmartContract{
-    // string public hey = "Abu is a good boy";
+    // string public hey = "Abu is a good man";
     // uint256 public no = 81;
 
 
